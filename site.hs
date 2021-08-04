@@ -114,8 +114,8 @@ siteCtx =
     defaultContext
 
 baseCtx =
-    constField "baseurl" -- "https://scmu.github.io/plip"
-                "http://localhost:8000"
+    constField "baseurl" "https://scmu.github.io/plip"
+                -- "http://localhost:8000"
 
 --------------------------------------------------------------------------------
 
