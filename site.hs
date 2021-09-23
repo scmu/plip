@@ -26,7 +26,7 @@ config = defaultConfiguration
 mkAssets, mkCSS, mkError, mkPages, mkIndex,
  mkTemplate, mkAtomXML :: Rules ()
 
-mkAssets = match ("images/*" .||. "js/*") $ do
+mkAssets = match ("images/*" .||. "js/*" .||. "assets/*") $ do
       route   idRoute
       compile copyFileCompiler
 
@@ -115,7 +115,7 @@ siteCtx =
 
 baseCtx =
     constField "baseurl" "https://scmu.github.io/plip"
-                -- "http://localhost:8000"
+                 -- "http://localhost:8000"
 
 --------------------------------------------------------------------------------
 

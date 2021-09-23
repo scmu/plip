@@ -2,12 +2,19 @@
 title: 大綱與講義
 ---
 
+
+* [課程提綱](../assets/syllabus.pdf).
 * Week 01 (2021/09/23)
-  * **概論 Overview**
+  * **概論 Introduction**
+    * [講義 0](../assets/handouts_00.pdf), [投影片 0](../assets/slides_00.pdf).
   * **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
-    * 設值、條件判斷 Assignment, Conditional Branching.
+    * 設值 Assignment.
+    * [講義 1](../assets/handouts_01.pdf), [投影片 1](../assets/slides_01.pdf),
+      [練習 0](../assets/practicals_00.pdf),
+      [練習 0 參考解答](../practicals_00_sols).
 * Week 02 (2021/09/30)
   * **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
+    * 條件判斷 Conditional Branching, 最弱前提 Weakest Precondition.
     * 迴圈與恆式 Loops and Loop Invariants.
 * Week 03 (2021/10/07)
   * **簡易程式推導 Simple Program Derivation**.
