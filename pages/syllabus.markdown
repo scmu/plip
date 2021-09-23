@@ -11,7 +11,7 @@ title: 大綱與講義
     * 設值 Assignment.
     * [講義 1](../assets/handouts_01.pdf), [投影片 1](../assets/slides_01.pdf),
       [練習 0](../assets/practicals_00.pdf),
-      [練習 0 參考解答](../practicals_00_sols).
+      [練習 0 參考解答](../assets/practicals_00_sols.pdf).
 * Week 02 (2021/09/30)
   * **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
     * 條件判斷 Conditional Branching, 最弱前提 Weakest Precondition.
