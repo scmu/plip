@@ -115,7 +115,7 @@ siteCtx =
 
 baseCtx =
     constField "baseurl" "https://scmu.github.io/plip"
-                 -- "http://localhost:8000"
+                  -- "http://localhost:8000"
 
 --------------------------------------------------------------------------------
 

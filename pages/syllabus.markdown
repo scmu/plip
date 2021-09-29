@@ -16,6 +16,8 @@ title: 大綱與講義
   * **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
     * 條件判斷 Conditional Branching, 最弱前提 Weakest Precondition.
     * 迴圈與恆式 Loops and Loop Invariants.
+  * 命題邏輯 Propositional Logic
+    * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_02.pdf), [命題邏輯公理與定理](../assets/theorems_prop.pdf).
 * Week 03 (2021/10/07)
   * **簡易程式推導 Simple Program Derivation**.
     * 最弱前提 Weakest Precondition.
