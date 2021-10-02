@@ -3,6 +3,7 @@ title: 課程資訊
 ---
 ## 最新消息
 
+  * [2021/10/02] [練習 0 參考解答](pages/syllabus.html)更新。
   * [2021/10/01] [練習 1 與參考解答](pages/syllabus.html)上線。
   * [2021/09/30] [講義與投影片 2, 命題邏輯公理與定理](pages/syllabus.html)上線。
   * [2021/09/23] [講義與投影片 0 & 1, 練習 0 與參考解答](pages/syllabus.html)上線。
