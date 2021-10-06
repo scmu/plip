@@ -21,6 +21,7 @@ title: 大綱與講義
   * 最弱前提 Weakest Precondition.
   * 命題邏輯 Propositional Logic
     * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_02.pdf), [命題邏輯公理與定理](../assets/theorems_prop.pdf).
+    * [練習 2](../assets/practicals_02.pdf), [練習 2 參考解答](../assets/practicals_02_sols.pdf).
   * **簡易程式推導 Simple Program Derivation**.
     * 最弱前提 Weakest Precondition.
     * 設值與代換 Assignment and Substitutions
