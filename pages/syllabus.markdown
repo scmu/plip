@@ -15,28 +15,22 @@ title: 大綱與講義
 * Week 02 (2021/09/30)
   * **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
     * 條件判斷 Conditional Branching, 最弱前提 Weakest Precondition.
-    * 迴圈與恆式 Loops and Loop Invariants.
     * [練習 1](../assets/practicals_01.pdf), [練習 1 參考解答](../assets/practicals_01_sols.pdf).
 * Week 03 (2021/10/07)
   * 最弱前提 Weakest Precondition.
+* Week 04 (2021/10/14)
   * 命題邏輯 Propositional Logic
     * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_02.pdf), [命題邏輯公理與定理](../assets/theorems_prop.pdf).
     * [練習 2](../assets/practicals_02.pdf), [練習 2 參考解答](../assets/practicals_02_sols.pdf).
+* Week 05 (2021/10/21)
+  * 迴圈與恆式 Loops and Loop Invariants.
+* Week 06 (2021/10/28)
   * **簡易程式推導 Simple Program Derivation**.
-    * 最弱前提 Weakest Precondition.
     * 設值與代換 Assignment and Substitutions
     * 條件程式推導 Branching Derivation
-* Week 04 (2021/10/14)
   * **迴圈建構一般技巧 General Loop Construction**.
-    * 由合取中提出恆式 Conjuncts as Invariants.
-* Week 05 (2021/10/21)
-  * **迴圈建構一般技巧 General Loop Construction**.
-    * 增強恆式 Strengthening the Invariant.
-* Week 06 (2021/10/28)
-  * **迴圈建構一般技巧 General Loop Construction**.
-    * 使用遞移律的恆式 Associative Invariants.
 * Week 07 (2021/11/04)
-  * 延續上週主題。
+  * **迴圈建構一般技巧 General Loop Construction**.
 * Week 08 (2021/11/11)：**期中考**。
 * Week 09 (2021/11/18)
   * **Case Study**.
