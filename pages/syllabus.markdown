@@ -12,22 +12,18 @@ title: 大綱與講義
     * [講義 1](../assets/handouts_01.pdf), [投影片 1](../assets/slides_01.pdf),
       [練習 0](../assets/practicals_00.pdf),
       [練習 0 參考解答](../assets/practicals_00_sols.pdf).
-* Week 02 (2021/09/30)
-  * **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
+* Week 02 (2021/09/30): **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
     * 條件判斷 Conditional Branching, 最弱前提 Weakest Precondition.
     * [練習 1](../assets/practicals_01.pdf), [練習 1 參考解答](../assets/practicals_01_sols.pdf).
-* Week 03 (2021/10/07)
+* Week 03 (2021/10/07): **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
   * 最弱前提 Weakest Precondition.
-* Week 04 (2021/10/14)
-  * 命題邏輯 Propositional Logic
+* Week 04 (2021/10/14): **命題邏輯 Propositional Logic**.
     * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_02.pdf), [命題邏輯公理與定理](../assets/theorems_prop.pdf).
     * [練習 2](../assets/practicals_02.pdf), [練習 2 參考解答](../assets/practicals_02_sols.pdf).
-* Week 05 (2021/10/21)
-  * 量詞 Quantifications
+* Week 05 (2021/10/21): **量詞 Quantifications**.
     * [講義 3](../assets/handouts_03.pdf), [投影片 3](../assets/slides_03.pdf).
     * [練習 3](../assets/practicals_03.pdf), [練習 3 參考解答](../assets/practicals_03_sols.pdf).
-* Week 06 (2021/10/28)
-  * 迴圈與恆式 Loops and Loop Invariants.
+* Week 06 (2021/10/28): **迴圈與恆式 Loops and Loop Invariants**.
   * **簡易程式推導 Simple Program Derivation**.
     * 設值與代換 Assignment and Substitutions
     * 條件程式推導 Branching Derivation
