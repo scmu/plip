@@ -23,8 +23,11 @@ title: 大綱與講義
     * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_02.pdf), [命題邏輯公理與定理](../assets/theorems_prop.pdf).
     * [練習 2](../assets/practicals_02.pdf), [練習 2 參考解答](../assets/practicals_02_sols.pdf).
 * Week 05 (2021/10/21)
-  * 迴圈與恆式 Loops and Loop Invariants.
+  * 量詞 Quantifications
+    * [講義 2](../assets/handouts_03.pdf), [投影片 2](../assets/slides_03.pdf).
+    * [練習 2](../assets/practicals_03.pdf), [練習 2 參考解答](../assets/practicals_03_sols.pdf).
 * Week 06 (2021/10/28)
+  * 迴圈與恆式 Loops and Loop Invariants.
   * **簡易程式推導 Simple Program Derivation**.
     * 設值與代換 Assignment and Substitutions
     * 條件程式推導 Branching Derivation
