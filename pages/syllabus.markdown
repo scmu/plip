@@ -13,22 +13,24 @@ title: 大綱與講義
       [練習 0](../assets/practicals_00.pdf),
       [練習 0 參考解答](../assets/practicals_00_sols.pdf).
 * Week 02 (2021/09/30): **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
-    * 條件判斷 Conditional Branching, 最弱前提 Weakest Precondition.
-    * [練習 1](../assets/practicals_01.pdf), [練習 1 參考解答](../assets/practicals_01_sols.pdf).
+  * 條件判斷 Conditional Branching, 最弱前提 Weakest Precondition.
+  * [練習 1](../assets/practicals_01.pdf), [練習 1 參考解答](../assets/practicals_01_sols.pdf).
 * Week 03 (2021/10/07): **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
   * 最弱前提 Weakest Precondition.
 * Week 04 (2021/10/14): **命題邏輯 Propositional Logic**.
-    * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_02.pdf), [命題邏輯公理與定理](../assets/theorems_prop.pdf).
-    * [練習 2](../assets/practicals_02.pdf), [練習 2 參考解答](../assets/practicals_02_sols.pdf).
+  * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_02.pdf), [命題邏輯公理與定理](../assets/theorems_prop.pdf).
+  * [練習 2](../assets/practicals_02.pdf), [練習 2 參考解答](../assets/practicals_02_sols.pdf).
 * Week 05 (2021/10/21): **量詞 Quantifications**.
-    * [講義 3](../assets/handouts_03.pdf), [投影片 3](../assets/slides_03.pdf).
-    * [練習 3](../assets/practicals_03.pdf), [練習 3 參考解答](../assets/practicals_03_sols.pdf).
+  * [講義 3](../assets/handouts_03.pdf), [投影片 3](../assets/slides_03.pdf).
+  * [練習 3](../assets/practicals_03.pdf), [練習 3 參考解答](../assets/practicals_03_sols.pdf).
 * Week 06 (2021/10/28): **迴圈與恆式 Loops and Loop Invariants**.
+  * [講義 4](../assets/handouts_04.pdf), [投影片 4](../assets/slides_04.pdf).
+  * [練習 4](../assets/practicals_04.pdf), [練習 4 參考解答](../assets/practicals_04_sols.pdf).
+  * [Guarded Command Language 梗概](../assets/gcl-summary.pdf).
+* Week 07 (2021/11/04)
   * **簡易程式推導 Simple Program Derivation**.
     * 設值與代換 Assignment and Substitutions
     * 條件程式推導 Branching Derivation
-  * **迴圈建構一般技巧 General Loop Construction**.
-* Week 07 (2021/11/04)
   * **迴圈建構一般技巧 General Loop Construction**.
 * Week 08 (2021/11/11)：**期中考**。
 * Week 09 (2021/11/18)
