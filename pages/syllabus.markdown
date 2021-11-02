@@ -28,10 +28,12 @@ title: 大綱與講義
   * [練習 4](../assets/practicals_04.pdf), [練習 4 參考解答](../assets/practicals_04_sols.pdf).
   * [Guarded Command Language 梗概](../assets/gcl-summary.pdf).
 * Week 07 (2021/11/04)
-  * **簡易程式推導 Simple Program Derivation**.
-    * 設值與代換 Assignment and Substitutions
-    * 條件程式推導 Branching Derivation
   * **迴圈建構一般技巧 General Loop Construction**.
+    * 合取拆恆式 Taking Conjuncts as Invariants
+    * 設值與代換 Assignment and Substitutions
+    * 常數換變數 Replacing Constants by Variables
+    * [講義 5](../assets/handouts_05.pdf), [投影片 4](../assets/slides_05.pdf).
+    * [練習 5](../assets/practicals_05.pdf), [練習 4 參考解答](../assets/practicals_05_sols.pdf).
 * Week 08 (2021/11/11)：**期中考**。
 * Week 09 (2021/11/18)
   * **Case Study**.
