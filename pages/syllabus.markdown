@@ -32,8 +32,8 @@ title: 大綱與講義
     * 合取拆恆式 Taking Conjuncts as Invariants
     * 設值與代換 Assignment and Substitutions
     * 常數換變數 Replacing Constants by Variables
-    * [講義 5](../assets/handouts_05.pdf), [投影片 4](../assets/slides_05.pdf).
-    * [練習 5](../assets/practicals_05.pdf), [練習 4 參考解答](../assets/practicals_05_sols.pdf).
+    * [講義 5](../assets/handouts_05.pdf), [投影片 5](../assets/slides_05.pdf).
+    * [練習 5](../assets/practicals_05.pdf), [練習 5 參考解答](../assets/practicals_05_sols.pdf).
     * [divmod.gcl](../assets/divmod.gcl), [zune.gcl](../assets/zune.gcl), [maxarray.gcl](../assets/maxarray.gcl).
 * Week 08 (2021/11/11)：**期中考**。
 * Week 09 (2021/11/18)
