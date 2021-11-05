@@ -1,0 +1,53 @@
+con A, B : Int { 0 ≤ A ∧ 0 < B }
+var q, r : Int
+
+q, r := 0, A
+{ A = B * q + r ∧ 0 ≤ r, bnd: r }
+do r ≥ B -> 
+    q := q + 1
+    r := r - B
+od
+
+{ A = B * q + r ∧
+  0 ≤ r ∧ r < B }
+
+{- #63886fe82448000a
+
+     A = (B * 0) + A ∧ 0 ≤ A
+<==   -- immediate 
+     0 ≤ A
+-}
+
+{- #5da5597be5d84bb0
+
+    A = (B * q) + r ∧ 0 ≤ r ∧ ¬ r ≥ B
+<=>   -- immediate 
+    A = (B * q) + r ∧ 0 ≤ r) ∧ r < B
+
+-}
+
+{- #4ca04fbe6f9bf5f3
+
+    A = (B * q) + r ∧ 0 ≤ r ∧ r ≥ B
+<=>   -- immediate 
+    r ≥ 0
+-}
+
+{- #3acc67372014fd6c
+
+     r - B < ?bnd_61
+<==    -- global property: B > 0
+     r = ?bnd_61 
+<==  A = (B * q) + r ∧ 0 ≤ r ∧
+      r = ?bnd_61 ∧ r ≥ B
+-}
+
+{- #e43026e73e1cade
+
+     A = (B * (q + 1)) + (r - B) ∧ 0 ≤ r - B
+<==    -- arithmetics
+     A = (B * q) + r ∧ 0 ≤ r ∧ r ≥ B
+-}
+
+
+

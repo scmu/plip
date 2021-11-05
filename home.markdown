@@ -3,7 +3,8 @@ title: 課程資訊
 ---
 ## 最新消息
 
-  * [2021/11/02] [講義與投影片 5、練習 5 與參考解答](pages/syllabus.html)上線。  
+  * [2021/11/05] [講義與投影片 5、練習 5 與參考解答](pages/syllabus.html)更正/更新，[GCL 範例](pages/syllabus.html)上線。  
+  * [2021/11/02] [講義與投影片 5、練習 5 與參考解答](pages/syllabus.html)上線。
   * [2021/11/02] [Guarded Command Language 梗概](pages/syllabus.html)小幅更正。
   * [2021/10/27] [Guarded Command Language 梗概](pages/syllabus.html)上線。
   * [2021/10/27] [Guabao](pages/tools.html)資料上線。

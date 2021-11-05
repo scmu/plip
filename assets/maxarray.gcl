@@ -1,0 +1,64 @@
+con N : Int { 0 ≤ N }
+con A : array [0..N) of Int
+var r, n : Int 
+
+{: NINF : Int  :}
+
+r, n := NINF, 0
+{ r = ⟨ ↑ i : 0 ≤ i < n : A[i] ⟩ ∧ 0 ≤ n ≤ N, 
+  bnd: N - n }
+do n ≠ N -> 
+   r := r ↑ A[n]
+   n := n + 1
+od    
+{ r = ⟨ ↑ i : 0 ≤ i < N : A[i] ⟩ }
+
+{- #f557b6f5c87e2e0
+     NINF = ⟨ ↑ i : 0 ≤ i < 0 : A[i] ⟩ ∧ 0 ≤ 0 ≤ N
+<=>  NINF = NINF ∧ 0 ≤ 0 ≤ N
+<=>  0 ≤ N
+-}
+
+{- #269d3855401a34ab
+
+     r = ⟨ ↑ i : 0 ≤ i < n : A[i] ⟩ ∧ 0 ≤ n ≤ N ∧ ¬ n ≠ N
+==>    -- immediate
+     r = ⟨ ↑ i  : 0 ≤ i < N : A[i] ⟩
+-}
+
+{- #4edfae6ccd12831e
+
+   r = ⟨ ↑ i  : 0 ≤ i < n : A[i] ⟩ ∧ 
+   0 ≤ n ≤ N ∧ n ≠ N
+=>  -- immediate
+   N - n ≥ 0
+-}
+
+{- #4023912981661731
+
+     N - (n + 1) < ?bnd_77
+<==  N - n = ?bnd_77
+<==  r = ⟨ ↑ i : 0 ≤ i < n : A[i] ⟩ ∧ 0 ≤ n ≤ N ∧
+     N - n = ?bnd_77 ∧ n ≠ N
+-}
+
+{- #36bfdcec173a60a1
+
+Consider 
+
+   ⟨ ↑ i : 0 ≤ i < n + 1 : A[i] ⟩
+=     -- assume 0 ≤ n, split off i = n
+   ⟨ ↑ i : 0 ≤ i < n : A[i] ⟩ ↑ A[n]
+
+Therefore 
+  
+     r ↑ A[n] = ⟨ ↑ i : 0 ≤ i < n + 1 : A[i] ⟩ ∧ 
+     0 ≤ n + 1 ≤ N
+<==    -- calculation above, 0 ≤ n => 0 ≤ n + 1
+     r ↑ A[n] = ⟨ ↑ i : 0 ≤ i < n : A[i] ⟩ A[n] ↑ ∧ 
+    0 ≤ n ∧ n + 1 ≤ N
+<=>    --  n ≤ N ∧ n ≠ N <=> n + 1 ≤ N
+     ⟨ ↑ i : 0 ≤ i < n : A[i] ⟩ ∧ 0 ≤ n ≤ N ∧
+     n ≠ N
+-}
+

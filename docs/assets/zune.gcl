@@ -1,0 +1,75 @@
+con D : Int { 0 ≤ D }
+var y, d : Int
+
+{: dIY : Int -> Int :}
+
+y, d := 1980, D
+{ ⟨ Σ i : 1980 ≤ i < y : dIY i ⟩ + d = D ∧ 
+  0 ≤ d ∧ 1980 ≤ y , bnd: d}
+do d ≥ dIY y -> 
+     d := d - dIY y
+     y := y + 1
+od
+{ ⟨ Σ i : 1980 ≤ i < y : dIY i ⟩ + d = D
+  ∧ 0 ≤ d < dIY y }
+
+
+{- #5c31ba0d4057a5a1
+
+    ⟨ Σ i : 1980 ≤ i < 1980 : dIY i ⟩ + D = D ∧ 
+    0 ≤ D ∧ 1980 ≤ 1980
+<=> 0 + D = D ∧ 0 ≤ D ∧ 1980 ≤ 1980
+<== 0 ≤ D
+ 
+-}
+
+{- #1b05692c35a0514d
+
+  ⟨ Σ i : 1980 ≤ i < y : dIY i ⟩ + d = D ∧ 0 ≤ d ∧ 
+  1980 ≤ y ∧ ¬ d ≥ dIY y
+==>   -- Immediate
+  ⟨ Σ i : 1980 ≤ i < y : dIY i ⟩ + d = D ∧ 0 ≤ d < dIY y
+-}
+
+{- #4e3764cc62138346
+
+    ⟨ Σ i  : 1980 ≤ i < y : dIY i ⟩ + d = D ∧ 0 ≤ d ∧ 1980 ≤ y ∧
+    d ≥ dIY y
+==>  -- Immediate
+    d ≥ 0
+-}
+
+{- #7a32e84e5c6d3995
+
+     d - dIY y < ?bnd_86
+<==    -- dIY y > 0
+     d = ?bnd_86
+<==  ⟨ Σ i : 1980 ≤ i < y : dIY i ⟩ + d = D ∧ 0 ≤ d) ∧ 
+     1980 ≤ y ∧ d = ?bnd_86 ∧ d ≥ dIY y
+
+-}
+
+{- #7a97ddcbf6262bcf
+
+Consider 
+
+    ⟨ Σ i : 1980 ≤ i < y + 1 : dIY i ⟩
+=     -- assume: 1980 ≤ y 
+   ⟨ Σ i : 1980 ≤ i < y ∨ i = y : dIY i ⟩
+=  ⟨ Σ i : 1980 ≤ i < y : dIY i ⟩ + 
+   ⟨ Σ i : i = y : dIY i ⟩
+=  ⟨ Σ i : 1980 ≤ i < y : dIY i ⟩ + dIY y
+
+Therefore,
+
+   ⟨ Σ i : 1980 ≤ i < y + 1 : dIY i ⟩ + (d - dIY y) = D ∧ 
+   0 ≤ d - dIY y ∧ 1980 ≤ y + 1
+=    -- calculation above, 1980 ≤ y  => 1980 ≤ y+1
+   ⟨ Σ i : 1980 ≤ i < y : dIY i ⟩ + dIY y + (d - dIY y) = D ∧ 
+   0 ≤ d - dIY y ∧ 1980 ≤ y 
+=   ⟨ Σ i : 1980 ≤ i < y : dIY i ⟩ + d = D ∧ 
+   0 ≤ d - dIY y ∧ 1980 ≤ y
+=  ⟨ Σ i : 1980 ≤ i < y : dIY i ⟩ + d = D ∧ 0 ≤ d ∧ 
+   1980 ≤ y ∧ d ≥ dIY y
+
+-}
