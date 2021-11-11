@@ -36,11 +36,14 @@ title: 大綱與講義
     * [練習 5](../assets/practicals_05.pdf), [練習 5 參考解答](../assets/practicals_05_sols.pdf).
     * [divmod.gcl](../assets/divmod.gcl), [zune.gcl](../assets/zune.gcl), [maxarray.gcl](../assets/maxarray.gcl).
 * Week 08 (2021/11/11)：**期中考**。
+  * [期中考參考解答](../assets/midterm_sols.pdf)。
 * Week 09 (2021/11/18)
-  * **Case Study**.
-    * 二元搜尋 Binary Search.
+  * **迴圈建構一般技巧 General Loop Construction**.
+    * 增強恆式 Strengthening the Invariant
+    * 利用遞移律 Associative Invariants
 * Week 10 (2021/11/25)
   * **Case Study**.
+    * 二元搜尋 Binary Search.
     * 有界線性搜尋 Bounded Linear Search.
 * Week 11 (2021/12/02)
   * **Case Study**.

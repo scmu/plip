@@ -3,6 +3,8 @@ title: 課程資訊
 ---
 ## 最新消息
 
+  * [2021/11/11] [期中考參考解答](pages/syllabus.html)上網。
+  * [2021/11/11] [練習 5 參考解答](pages/syllabus.html)更正。
   * [2021/11/09] [練習 2, 4 參考解答](pages/syllabus.html)筆誤更正。
   * [2021/11/07] [練習 1 參考解答](pages/syllabus.html)更正。
   * [2021/11/05] [講義與投影片 5、練習 5 與參考解答](pages/syllabus.html)更正/更新，[GCL 範例](pages/syllabus.html)上線。
