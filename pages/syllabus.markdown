@@ -40,8 +40,8 @@ title: 大綱與講義
 * Week 09 (2021/11/18)
   * **迴圈建構一般技巧 General Loop Construction**.
     * 增強恆式 Strengthening the Invariant
-    * [講義 6](../assets/handouts_06.pdf), [投影片 5](../assets/slides_06.pdf).
-    * [練習 6](../assets/practicals_06.pdf), [練習 5 參考解答](../assets/practicals_06_sols.pdf).
+    * [講義 6](../assets/handouts_06.pdf), [投影片 6](../assets/slides_06.pdf).
+    * [練習 6](../assets/practicals_06.pdf), [練習 6 參考解答](../assets/practicals_06_sols.pdf).
 * Week 10 (2021/11/25)
   * **迴圈建構一般技巧 General Loop Construction**.
     * 利用遞移律 Associative Invariants
