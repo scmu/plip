@@ -4,6 +4,9 @@ var r, n : Int
 
 {:
   sum p q = ⟨ Σ i : p ≤ i < q : F[i] ⟩
+  
+  NINF : Int -- assuming that NINF represents 
+             -- negative infinity.
 
   Q  = 0 ≤ n ≤ N  
 :}
