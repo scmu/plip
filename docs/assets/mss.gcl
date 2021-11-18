@@ -1,0 +1,19 @@
+con N : Int { 0 ≤ N }
+con F : array [0..N) of Int
+var r, n : Int
+
+{:
+  sum p q = ⟨ Σ i : p ≤ i < q : F[i] ⟩
+
+  P0 = r = ⟨ ↑ p q : 0 ≤ p ≤ q ≤ n : sum p q ⟩
+  Q  = 0 ≤ n ≤ N  
+:}
+
+r, n := 0, 0
+{ P0 ∧ Q, bnd: N - n }
+do n ≠ N -> 
+   [!
+   
+   !]     
+od
+{ r = ⟨ ↑ p q : 0 ≤ p ≤ q ≤ N : sum p q ⟩ }

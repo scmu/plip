@@ -1,0 +1,15 @@
+con N : Int { 0 ≤ N }
+con F : array [0..N) of Int
+var r, n : Int
+
+{:
+  sum p q = ⟨ Σ i : p ≤ i < q : F[i] ⟩
+
+  Q  = 0 ≤ n ≤ N  
+:}
+
+
+{ True }  
+  -- How do you specify that you want
+  -- the maximum sum of non-empty segments?
+   

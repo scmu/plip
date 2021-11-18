@@ -42,6 +42,13 @@ title: 大綱與講義
     * 增強恆式 Strengthening the Invariant
     * [講義 6](../assets/handouts_06.pdf), [投影片 6](../assets/slides_06.pdf).
     * [練習 6](../assets/practicals_06.pdf), [練習 6 參考解答](../assets/practicals_06_sols.pdf).
+    * Exercises:
+      * [mss.gcl](../assets/mss.gcl): maximum segment sum.
+      * [mss1.gcl](../assets/mss1.gcl): maximum non-empty segment sum.
+      * [pnpairs.gcl](../assets/pnpairs.gcl): number of non-positive/non-negative pairs.
+      * [pppairs.gcl](../assets/pppairs.gcl): number o pairs having a positive product.
+      * [maxdiff.gcl](../assets/maxdiff.gcl): maximum difference of pairs.
+      * [steep.gcl](../assets/steep.gcl): determining whether an array is steep.
 * Week 10 (2021/11/25)
   * **迴圈建構一般技巧 General Loop Construction**.
     * 利用遞移律 Associative Invariants

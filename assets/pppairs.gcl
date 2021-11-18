@@ -1,0 +1,8 @@
+con N : Int {1 ≤ N}
+con a : array [0..N) of Int
+var r : Int
+
+[!
+
+!]
+{ r = ⟨# i j : 0 ≤ i < j < N : a[i] * a[j] ≥ 0 ⟩}
