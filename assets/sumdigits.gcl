@@ -1,0 +1,11 @@
+con N : Int { 0 ≤ N }
+var r, n : Int
+
+{: sd : Int -> Int :}
+{- sd 0 = 0
+   sd x = x % 10 + sd (x / 10) -}
+[!
+
+!]
+{ r = sd N }
+

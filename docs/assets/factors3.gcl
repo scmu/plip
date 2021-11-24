@@ -1,0 +1,7 @@
+con N : Int { 0 < N }
+var x, i : Int
+
+[!
+
+!]
+{ x * 3^i = N ∧ x % 3 ≠ 0 }

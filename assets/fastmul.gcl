@@ -1,0 +1,10 @@
+con A, B : Int { 0 ≤ B }
+var r, a, b : Int
+
+{: even : Int -> Bool
+   odd  : Int -> Bool 
+:}
+[!
+
+!]
+{ r = A * B }

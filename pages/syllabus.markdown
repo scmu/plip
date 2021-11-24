@@ -52,11 +52,14 @@ title: 大綱與講義
 * Week 10 (2021/11/25)
   * **迴圈建構一般技巧 General Loop Construction**.
     * 利用遞移律 Associative Invariants
+    * [講義 7](../assets/handouts_07.pdf), [投影片 7](../assets/slides_07.pdf).
+    * [練習 7](../assets/practicals_07.pdf), [練習 7 參考解答](../assets/practicals_07_sols.pdf).
+    * Exercises:
+      * [existszero.gcl](../assets/existszero.gcl), [factors3.gcl](../assets/factors3.gcl), [fastexp.gcl](../assets/fastexp.gcl), [fastmul.gcl](../assets/fastmul.gcl), [fusc.gcl](../assets/fusc.gcl), [sumdigits.gcl](../assets/sumdigits.gcl), [sumpoly.gcl](../assets/sumpoly.gcl).
+* Week 11 (2021/12/02)
   * **Case Study**.
     * 二元搜尋 Binary Search.
     * 有界線性搜尋 Bounded Linear Search.
-* Week 11 (2021/12/02)
-  * **Case Study**.
 * Week 12 (2021/12/09)
   * **Case Study**.
 * Week 13 (2021/12/16)

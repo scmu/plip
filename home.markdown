@@ -3,6 +3,7 @@ title: 課程資訊
 ---
 ## 最新消息
 
+  * [2021/11/24] [講義與投影片 7、練習 7 與參考解答, 及相關 GCL 練習檔](pages/syllabus.html)上網。
   * [2021/11/18] [練習題 GCL 檔案](pages/syllabus.html)上網。
   * [2021/11/17] [講義與投影片 6、練習 6 與參考解答](pages/syllabus.html)上網。
   * [2021/11/11] [期中考參考解答](pages/syllabus.html)上網。

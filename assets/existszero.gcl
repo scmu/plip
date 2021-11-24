@@ -1,0 +1,19 @@
+con N : Int { 0 ≤ N }
+con f : array [0..N) of Int
+var r : Bool
+
+{: g : Int -> Bool 
+   g n = ⟨∃ i : n ≤ i < N : f[i] = 0⟩
+      -- g defined for 0 ≤ n ≤ N
+:}
+{-
+    Try come up with a recursive definition of g.
+    That is,
+      g N = ?
+      g n = ?    if 0 ≤ n < N
+-}
+
+[!
+
+!]
+{ r = ⟨∃ i : 0 ≤ i < N : f[i] = 0 ⟩}
