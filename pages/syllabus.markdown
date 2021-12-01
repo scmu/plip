@@ -60,8 +60,8 @@ title: 大綱與講義
   * **Case Study**.
     * 快速除法 Fast Division.
     * 二元搜尋 Binary Search.
-    * [講義 8](../assets/handouts_08.pdf), [投影片 7](../assets/slides_08.pdf).
-    * [練習 8](../assets/practicals_08.pdf), [練習 7 參考解答](../assets/practicals_08_sols.pdf).
+    * [講義 8](../assets/handouts_08.pdf), [投影片 8](../assets/slides_08.pdf).
+    * [練習 8](../assets/practicals_08.pdf), [練習 8 參考解答](../assets/practicals_08_sols.pdf).
     * Exercises:
       * [fastdiv.gcl](../assets/fastdiv.gcl), [sqroot01.gcl](../assets/sqroot01.gcl), [bsearchGen.gcl](../assets/bsearchGen.gcl), [bsearch.gcl](../assets/bsearch.gcl), [sqroot02.gcl](../assets/sqroot02.gcl).
 * Week 12 (2021/12/09)
