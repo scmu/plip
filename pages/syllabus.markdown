@@ -58,8 +58,12 @@ title: 大綱與講義
       * [existszero.gcl](../assets/existszero.gcl), [factors3.gcl](../assets/factors3.gcl), [fastexp.gcl](../assets/fastexp.gcl), [fastmul.gcl](../assets/fastmul.gcl), [fusc.gcl](../assets/fusc.gcl), [sumdigits.gcl](../assets/sumdigits.gcl), [sumpoly.gcl](../assets/sumpoly.gcl).
 * Week 11 (2021/12/02)
   * **Case Study**.
+    * 快速除法 Fast Division.
     * 二元搜尋 Binary Search.
-    * 有界線性搜尋 Bounded Linear Search.
+    * [講義 8](../assets/handouts_08.pdf), [投影片 7](../assets/slides_08.pdf).
+    * [練習 8](../assets/practicals_08.pdf), [練習 7 參考解答](../assets/practicals_08_sols.pdf).
+    * Exercises:
+      * [fastdiv.gcl](../assets/fastdiv.gcl), [sqroot01.gcl](../assets/sqroot01.gcl), [bsearchGen.gcl](../assets/bsearchGen.gcl), [bsearch.gcl](../assets/bsearch.gcl), [sqroot02.gcl](../assets/sqroot02.gcl).
 * Week 12 (2021/12/09)
   * **Case Study**.
 * Week 13 (2021/12/16)

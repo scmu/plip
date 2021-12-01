@@ -1,0 +1,16 @@
+con A, B : Int { 0 ≤ A ∧ 0 < B }
+var q, r, b, k : Int
+
+[!
+
+!]
+{ 0 ≤ k ∧ b = 2^k * B ∧ A < b }
+[!
+
+!]
+{ A = q * b + r ∧ 0 ≤ r < b ∧
+  0 ≤ k ∧ b = 2^k * B, bnd: b }
+[!
+
+!]
+{ A = q * B + r ∧ 0 ≤ r < B }

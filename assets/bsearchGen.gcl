@@ -1,0 +1,13 @@
+-- general form of binary search
+{: Phi : Int -> Int -> Bool :}
+con M, N : Int { M < N }
+var l, r : Int
+
+[!
+
+!]
+{ Phi l r ∧ M ≤ l < r ≤ N, bnd : r - l }
+[!
+
+!]
+{ Phi l (l + 1) ∧ M ≤ l < N }

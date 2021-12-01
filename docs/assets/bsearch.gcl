@@ -1,0 +1,30 @@
+con K, N : Int { 0 < N }
+{: INF, NINF : Int 
+   ascending : (array [0..N) of Int) -> Bool
+:}
+con F : array [0..N) of Int
+  { ascending F ∧ F[0-1] = NINF ∧
+    F[N] = INF }
+var l, r, m : Int
+var p : Bool
+
+{: Phi : Int -> Int -> Bool 
+   Phi l r = F[l] ≤ K < F[r] :}
+[!
+
+!]
+{ 0-1 ≤ l < r ≤ N ∧ Phi l r, bnd: r - l }
+do l+1 ≠ r -> 
+    [!
+    
+    !]
+od
+{ 0-1 ≤ l < N ∧ F[l] ≤ K < F[l+1] }
+[!
+
+!]
+{ p = ⟨ ∃ i : 0 ≤ i < N : F[i] = K ⟩ ∧ 
+  p ⇒ F[l] = K }
+
+-- a parser bug currently forbids us to write
+-- "-1", therefore we write "0-1" for now. 

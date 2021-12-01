@@ -1,0 +1,11 @@
+con N : Int { 0 ≤ N }
+var x, y, m : Int
+
+{: Phi : Int -> Int -> Bool 
+   Phi = ? :}
+
+[!
+
+!]
+{ x^2 ≤ N < (x+1)^2 }
+
