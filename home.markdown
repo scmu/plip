@@ -3,6 +3,7 @@ title: 課程資訊
 ---
 ## 最新消息
 
+  * [2021/12/02] 參考資料新增[Edsger W. Dijkstra Archive](pages/refs.html).
   * [2021/12/02] [練習 5, 6, 8 與期中考參考解答](pages/syllabus.html)更新。
   * [2021/12/01] [講義與投影片 8、練習 8 與參考解答, 及相關 GCL 練習檔](pages/syllabus.html)上網。
   * [2021/11/24] [講義與投影片 7、練習 7 與參考解答, 及相關 GCL 練習檔](pages/syllabus.html)上網。
