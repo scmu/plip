@@ -65,7 +65,9 @@ title: 大綱與講義
     * Exercises:
       * [fastdiv.gcl](../assets/fastdiv.gcl), [sqroot01.gcl](../assets/sqroot01.gcl), [bsearchGen.gcl](../assets/bsearchGen.gcl), [bsearch.gcl](../assets/bsearch.gcl), [sqroot02.gcl](../assets/sqroot02.gcl).
 * Week 12 (2021/12/09)
-  * **Case Study**.
+  * **陣列操作 Array Manipulation**.
+  * [講義 9](../assets/handouts_09.pdf), [投影片 9](../assets/slides_09.pdf).
+  * [練習 9](../assets/practicals_09.pdf), [練習 9 參考解答](../assets/practicals_09_sols.pdf).
 * Week 13 (2021/12/16)
   * **分離邏輯 Separation Logic**.
 * Week 14 (2021/12/23)
