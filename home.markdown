@@ -3,6 +3,7 @@ title: 課程資訊
 ---
 ## 最新消息
 
+  * [2021/12/10] [講義、投影片、練習、與參考解答 6, 7, 8](pages/syllabus.html)錯誤更新版上網。感謝同學幫忙除錯！
   * [2021/12/08] [講義與投影片 9、練習 9 與參考解答](pages/syllabus.html)上網。
   * [2021/12/02] 參考資料新增[Edsger W. Dijkstra Archive](pages/refs.html).
   * [2021/12/02] [練習 5, 6, 8 與期中考參考解答](pages/syllabus.html)更新。
