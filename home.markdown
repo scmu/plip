@@ -3,6 +3,8 @@ title: 課程資訊
 ---
 ## 最新消息
 
+  * [2021/12/16] [講義與投影片 10、練習 10 與參考解答](pages/syllabus.html)上網。
+  * [2021/12/16] 講義 9 關於 swaps 內容更正並移至講義 10.
   * [2021/12/10] [講義、投影片、練習、與參考解答 6, 7, 8](pages/syllabus.html)錯誤更新版上網。感謝同學幫忙除錯！
   * [2021/12/08] [講義與投影片 9、練習 9 與參考解答](pages/syllabus.html)上網。
   * [2021/12/02] 參考資料新增[Edsger W. Dijkstra Archive](pages/refs.html).
