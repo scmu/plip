@@ -70,8 +70,8 @@ title: 大綱與講義
   * [練習 9](../assets/practicals_09.pdf), [練習 9 參考解答](../assets/practicals_09_sols.pdf).
 * Week 13 (2021/12/16)
   * **陣列元素交換 Swaps in Arrays**.
-  * [講義 10](../assets/handouts_10.pdf), [投影片 9](../assets/slides_10.pdf).
-  * [練習 10 參考解答](../assets/practicals_10_sols.pdf).
+  * [講義 10](../assets/handouts_10.pdf), [投影片 10](../assets/slides_10.pdf).
+  * [練習 10 參考解答](../assets/practicals_10_sols.pdf) (待添補).
 * Week 14 (2021/12/23)
   * **分離邏輯 Separation Logic**.
 * Week 15 (2021/12/30)
