@@ -74,6 +74,8 @@ title: 大綱與講義
   * [練習 10](../assets/practicals_10.pdf), [練習 10 參考解答](../assets/practicals_10_sols.pdf).
 * Week 14 (2021/12/23)
   * **分離邏輯 Separation Logic**.
+  * [講義 11](../assets/handouts_11.pdf), [投影片 11](../assets/slides_11.pdf).
+  * [練習 11](../assets/practicals_11.pdf).
 * Week 15 (2021/12/30)
   * **分離邏輯 Separation Logic**.
 * Week 16 (2022/01/06): *期末考*。
