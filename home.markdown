@@ -3,6 +3,7 @@ title: 課程資訊
 ---
 ## 最新消息
 
+  * [2021/12/30] [講義與投影片 12](pages/syllabus.html)上網，[講義與投影片 11、練習 11](pages/syllabus.html)更新。
   * [2021/12/23] [講義與投影片 11、練習 11](pages/syllabus.html)上網。
   * [2021/12/20] [練習 10 與參考解答](pages/syllabus.html)追加題目。
   * [2021/12/16] [講義、投影片 8,9 與練習 6,7,8,9 參考解答](pages/syllabus.html)錯誤更新版上網。

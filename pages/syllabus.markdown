@@ -75,9 +75,10 @@ title: 大綱與講義
 * Week 14 (2021/12/23)
   * **分離邏輯 Separation Logic**.
   * [講義 11](../assets/handouts_11.pdf), [投影片 11](../assets/slides_11.pdf).
-  * [練習 11](../assets/practicals_11.pdf).
+  * [練習 11](../assets/practicals_11.pdf), [練習 11 參考解答](../assets/practicals_11_sols.pdf).
 * Week 15 (2021/12/30)
   * **分離邏輯 Separation Logic**.
+  * [講義 12](../assets/handouts_12.pdf), [投影片 12](../assets/slides_12.pdf).
 * Week 16 (2022/01/06): *期末考*。
 * Week 17 (2022/01/07): 彈性補充教學週。
 * Week 18 (2022/01/14): 彈性補充教學週。
