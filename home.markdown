@@ -3,15 +3,6 @@ title: 課程資訊
 ---
 ## 最新消息
 
-h8
-h9
-handouts_10
-handouts_11
-handouts_12
-midterm_sols
-p9
-p10
-
   * [2021/12/31] [講義與投影片 8-12, 練習 9, 10](pages/syllabus.html)筆誤更正。
   * [2021/12/30] [講義與投影片 12](pages/syllabus.html)上網，[講義與投影片 11、練習 11](pages/syllabus.html)更新。
   * [2021/12/23] [講義與投影片 11、練習 11](pages/syllabus.html)上網。
