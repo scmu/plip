@@ -24,7 +24,7 @@ Cunningham, H. Conrad. [Program Semantics and Derivation (CSci 550)](https://joh
 
 Morgan, C. Carroll. [(In-)Formal Methods: the Lost Art (COMP 6721)](http://www.cse.unsw.edu.au/~cs6721/2021T2/Web/), University of New South Wales, 2021.
 
-Reynolds, John C. [Introduction to Separation Logic (15-818{A}3)](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/fox-19/member/jcr/www15818As2011/cs818A3-11.html), Carnegie Mellon University, 2011.
+Reynolds, John C. [Introduction to Separation Logic (15-818A3)](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/fox-19/member/jcr/www15818As2011/cs818A3-11.html), Carnegie Mellon University, 2011.
 
 Tsay, Yih-Kuen. [Software Specification and Verification (軟體規格與驗證)](http://im.ntu.edu.tw/~tsay/dokuwiki/doku.php?id=courses:ssv2021:main), Dep. of Info. Management, National Taiwan University, 2021.
 
