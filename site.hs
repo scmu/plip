@@ -87,11 +87,11 @@ mkAtomXML = create ["atom.xml"] $ do
 
 feedConfig :: FeedConfiguration
 feedConfig = FeedConfiguration
-    { feedTitle       = "Programming Languages: Functional Programming"
+    { feedTitle       = "Programming Languages: Imperative Program Construction"
     , feedDescription = "IM, NTU"
     , feedAuthorName  = "Shin-Cheng Mu"
     , feedAuthorEmail = "scm@iis.sinica.edu.tw"
-    , feedRoot        = "https://scmu.github.io/plfp"
+    , feedRoot        = "https://scmu.github.io/plip"
     }
 
 --------------------------------------------------------------------------------
@@ -107,15 +107,15 @@ siteCtx =
     constField "site_description"
                "Programming Languages: Imperative Program Construction" `mappend`
     constField "site-url" "https://scmu.github.io/plip" `mappend`
-    constField "tagline" "National Taiwan University, 2021" `mappend`
+    constField "tagline" "National Taiwan University, 2022" `mappend`
     constField "site-title" "程式語言：命令程式設計" `mappend`
-    constField "copy-year" "2021" `mappend`
+    constField "copy-year" "2022" `mappend`
     constField "github-repo" "https://scmu.github.io/plip" `mappend`
     defaultContext
 
 baseCtx =
     constField "baseurl" "https://scmu.github.io/plip"
-                 -- "http://localhost:8000"
+                 --- "http://localhost:8000"
 
 --------------------------------------------------------------------------------
 
