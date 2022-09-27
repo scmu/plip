@@ -17,7 +17,9 @@ title: 大綱與講義
   * [講義 2](../assets/handouts_02.pdf), [投影片 2](../assets/slides_02.pdf),
     [練習 2](../assets/practicals_02.pdf), [練習 2 參考解答](../assets/practicals_02_sols.pdf)
   * [命題邏輯公理與定理](../assets/theorems_prop.pdf).
-* Week 04 (2022/09/29): **命題邏輯 Propositional Logic**.
+* Week 04 (2022/09/29): **命題邏輯 Propositional Logic**, **量詞 Quantifications**.
+  * [講義 3](../assets/handouts_03.pdf), [投影片 3](../assets/slides_03.pdf),
+    [練習 3](../assets/practicals_03.pdf), [練習 3 參考解答](../assets/practicals_03_sols.pdf)
 * Week 05 (2022/10/06): **量詞 Quantifications**.
 * Week 06 (2022/10/13): **迴圈與恆式 Loops and Loop Invariants**.
   * [Guarded Command Language 梗概](../assets/gcl-summary.pdf).
