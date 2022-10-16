@@ -3,6 +3,7 @@ title: 課程資訊
 ---
 ## 最新消息
 
+  * [2022/10/17] [講義 4, 練習 4 及參考解答](pages/syllabus.html)上網。
   * [2022/09/27] [講義 3, 練習 3 及參考解答](pages/syllabus.html)上網。
   * [2022/09/21] [講義 2, 練習 2 及參考解答](pages/syllabus.html)上網。
   * [2022/09/08] [練習 0 參考解答](pages/syllabus.html)上網。
