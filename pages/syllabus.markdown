@@ -30,23 +30,27 @@ title: 大綱與講義
 * Week 09 (2022/11/03):  **迴圈建構一般技巧 General Loop Construction**.
     * 合取拆恆式 Taking Conjuncts as Invariants
     * 設值與代換 Assignment and Substitutions
-    * 常數換變數 Replacing Constants by Variables
     * [講義 5](../assets/handouts_05.pdf), [投影片 5](../assets/slides_05.pdf),
         [練習 5](../assets/practicals_05.pdf), [練習 5 參考解答](../assets/practicals_05_sols.pdf).
 * Week 10 (2022/11/10)
   * **迴圈建構一般技巧 General Loop Construction**.
-    * 增強恆式 Strengthening the Invariant
-    * 利用遞移律 Associative Invariants
+    * 常數換變數 Replacing Constants by Variables
+    * [講義 6](../assets/handouts_06.pdf), [投影片 6](../assets/slides_06.pdf),
+        [練習 6](../assets/practicals_06.pdf).
 * Week 11 (2022/11/17)
+  * **迴圈建構一般技巧 General Loop Construction**.
+    * 增強恆式 Strengthening the Invariant
+* Week 11 (2022/11/17)
+  * **迴圈建構一般技巧 General Loop Construction**.
+    * 利用遞移律 Associative Invariants
+* Week 12 (2022/11/24)
   * **Case Study**.
     * 快速除法 Fast Division.
     * 二元搜尋 Binary Search.
-* Week 12 (2022/11/24)
-  * **陣列操作 Array Manipulation**.
 * Week 13 (2022/12/01)
-  * **陣列元素交換 Swaps in Arrays**.
+  * **陣列操作 Array Manipulation**.
 * Week 14 (2022/12/08)
-  * **分離邏輯 Separation Logic**.
+  * **陣列元素交換 Swaps in Arrays**.
 * Week 15 (2021/12/15)
   * **分離邏輯 Separation Logic**.
 * Week 16 (2022/12/22): *期末考*。
