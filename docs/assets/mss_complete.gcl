@@ -1,0 +1,132 @@
+con N : Int { 0 ≤ N }
+con F : array [0..N) of Int
+var r, s, n : Int
+
+{: sum p q = ⟨ Σ i : p ≤ i < q : F[i] ⟩
+
+   P  =  r = ⟨ ↑ p q : 0 ≤ p ≤ q ≤ n : sum p q ⟩
+   Q  =  s = ⟨ ↑ p : 0 ≤ p ≤ n : sum p n ⟩
+:}
+
+r, s, n := 0, 0, 0
+{ P ∧ Q ∧ 0 ≤ n ≤ N, bnd: N - n }
+do n ≠ N -> 
+   s := (s + F[n]) ↑ 0
+   r := r ↑ s
+   n := n + 1
+od
+{ r = ⟨ ↑ p q : 0 ≤ p ≤ q ≤ N : sum p q ⟩ }
+
+{- #6523053fcf21b174
+True
+⇒
+P [ n,r \ 0,0 ] ∧ Q [ n,s \ 0,0 ] ∧ 0 ≤ 0 ≤ N
+===========================================
+P [ n,r \ 0,0 ] ∧ Q [ n,s \ 0,0 ] ∧ 0 ≤ 0 ≤ N
+= 0 = ⟨ ↑ p q : 0 ≤ p ≤ q ≤ 0 : sum p q ⟩ ∧ 
+  0 = ⟨ ↑ p : 0 ≤ p ≤ 0 : sum p n ⟩ ∧
+  0 ≤ 0 ≤ N
+=  { one point rule }
+  0 = sum 0 0 ∧ 0 = sum 0 0 ∧ 0 ≤ 0 ≤ N
+=  { empty range }
+  0 = 0 ∧ 0 = 0 ∧ 0 ≤ 0 ≤ N
+⇐ 0 ≤ N
+
+-}
+
+{- #3980a4a4f2c3236
+P ∧ Q ∧ 0 ≤ n ≤ N ∧ ¬ (n ≠ N)
+⇒
+r = ⟨ ↑ p q : 0 ≤ p ≤ q ≤ N : sum p q ⟩
+====================================
+  P ∧ Q ∧ 0 ≤ n ≤ N ∧ ¬ (n ≠ N)
+⇒ r = ⟨ ↑ p q : 0 ≤ p ≤ q ≤ n : sum p q ⟩ ∧ n = n
+⇒ r = ⟨ ↑ p q : 0 ≤ p ≤ q ≤ N : sum p q ⟩
+-}
+
+{- #6c5dea2155d045bb
+P ∧ Q ∧ 0 ≤ n ≤ N ∧ n ≠ N
+⇒
+N - n ≥ 0
+=======================
+Immediate.
+-}
+
+{- #2657300f60adf941
+P ∧ Q ∧ 0 ≤ n ≤ N ∧ n ≠ N
+⇒
+P [ n \ n + 1 ] [ r \ r ↑ s ] 
+    [ s \ s + F[n] ↑ 0 ] ∧ 
+Q [ n \ n + 1 ] [ s \ s + F[n] ↑ 0 ] ∧ 
+0 ≤ n + 1 ≤ N
+============================================
+
+The main proof goes:
+
+  (P [ n \ n + 1 ] ∧ Q [ n \ n + 1 ] ∧ 
+   0 ≤ n + 1 ≤ N) [r \ r ↑ s] 
+               [s \ (s + F[n]) ↑ 0] 
+⇐   { by 1 and 2, needing 0 ≤ n }
+  (r = ⟨ ↑ p q : 0 ≤ p ≤ q ≤ n : sum p q ⟩ ↑
+         ⟨ ↑ p : 0 ≤ p ≤ n+1 : sum p (n+1) ⟩ ∧
+   s = (⟨ ↑ p q : 0 ≤ p ≤ n : sum p n ⟩ + F[n]) ↑ 0 ∧
+   0 ≤ n ≤ N) [r \ r ↑ s] [s \ (s + F[n]) ↑ 0]
+=   { substitution }
+  r ↑ s = ⟨ ↑ p q : 0 ≤ p ≤ q ≤ n : sum p q ⟩ ↑
+            ⟨ ↑ p : 0 ≤ p ≤ n+1 : sum p (n+1) ⟩ ∧
+  (s + F[n]) ↑ 0 = (⟨ ↑ p q : 0 ≤ p ≤ n : sum p n ⟩ + F[n]) ∧
+  0 ≤ n ≤ N
+⇐ r = ⟨ ↑ p q : 0 ≤ p ≤ q ≤ n : sum p q ⟩ ∧
+  s = ⟨ ↑ p q : 0 ≤ p ≤ n : sum p n ⟩ ∧
+  0 ≤ n ≤ N
+= P ∧ Q ∧ 0 ≤ n ≤ N ∧ n ≠ N .
+
+The auxiliary proofs are shown below:
+
+1. Expanding the RHS of P[ n \ n + 1 ].
+   For this calculation we need -1 ≤ n.
+   
+  ⟨ ↑ p q : 0 ≤ p ≤ q ≤ n + 1 : sum p q ⟩ 
+=  { assuming -1 ≤ n, splitting off q = n + 1 }
+  ⟨ ↑ p q : 0 ≤ p ≤ q ≤ n : sum p q ⟩ ↑
+    ⟨ ↑ p : 0 ≤ p ≤ n+1 : sum p (n+1) ⟩
+    
+2. Expanding the sub-expression ⟨ ↑ p : 0 ≤ p ≤ n+1 : sum p (n+1) ⟩:
+   For this calculation we need 0 ≤ n.
+
+  ⟨ ↑ p q : 0 ≤ p ≤ n + 1 : sum p (n+1) ⟩
+=  { assuming -1 ≤ n, splitting off p = n + 1 }
+  ⟨ ↑ p q : 0 ≤ p ≤ n : sum p (n+1) ⟩ ↑
+    sum (n+1) (n+1)
+= ⟨ ↑ p q : 0 ≤ p ≤ n : sum p (n+1) ⟩ ↑
+    ⟨ Σ i : n+1 ≤ i < n+1 : F[i] ⟩
+=  { empty range }
+  ⟨ ↑ p q : 0 ≤ p ≤ n : sum p (n+1) ⟩ ↑ 0
+=  { definition of sum }
+  ⟨ ↑ p q : 0 ≤ p ≤ n : 
+     ⟨ Σ i : p ≤ i < n+1 : F[i] ⟩ ⟩ ↑ 0
+=  { assuming 0 ≤ n, splitting off i = n }
+  ⟨ ↑ p q : 0 ≤ p ≤ n : 
+    ⟨ Σ i : p ≤ i < n : F[i] ⟩ + F[n] ⟩ ↑ 0
+=  { distributivity }
+  (⟨ ↑ p q : 0 ≤ p ≤ n : 
+    ⟨ Σ i : p ≤ i < n : F[i]⟩⟩ + F[n]) ↑ 0
+=   { definition of sum }
+  (⟨ ↑ p q : 0 ≤ p ≤ n : sum p n ⟩ + F[n]) ↑ 0
+ 
+-}
+
+{- #f07f2cbc217700e
+P ∧ Q ∧ 0 ≤ n ≤ N ∧ N - n = bnd ∧ n ≠ N
+⇒
+N - (n + 1) < bnd
+=====================================
+Immediate.
+-}
+
+
+
+
+
+
+
