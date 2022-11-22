@@ -43,9 +43,12 @@ title: 大綱與講義
     * 作業 1 (四選二): [mss1.gcl](../assets/mss1.gcl), [steep.gcl](../assets/steep.gcl), [maxdiff.gcl](../assets/maxdiff.gcl), [pppairs.gcl](../assets/pppairs.gcl).
     * 範例: [mss_complete.gcl](../assets/mss_complete.gcl).
 * Week 11 (2022/11/17)
+  * 延續上週。
+* Week 12 (2022/11/24)
   * **迴圈建構一般技巧 General Loop Construction**.
     * 利用遞移律 Associative Invariants
-* Week 12 (2022/11/24)
+    * [講義 7](../assets/handouts_07.pdf), [投影片 7](../assets/slides_07.pdf),
+        [練習 7](../assets/practicals_07.pdf).
   * **Case Study**.
     * 快速除法 Fast Division.
     * 二元搜尋 Binary Search.
