@@ -2,8 +2,7 @@ con N : Int {1 ≤ N}
 con a : array [0..N) of Int
 var r : Bool
 
-[!
+{: sum i = ⟨Σ j : 0 ≤ j < i : a[j]⟩ :}
 
-!]
-{ r = ⟨∀ i : 0 ≤ i < N : 
-        ⟨Σ j : 0 ≤ j < i : a[j]⟩ < a[i] ⟩}
+
+{ r = ⟨∀ i : 0 ≤ i < N : sum i < a[i] ⟩}

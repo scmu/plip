@@ -1,18 +1,14 @@
-con N : Int { 0 ≤ N }
+con N : Int { 1 ≤ N }
 con F : array [0..N) of Int
 var r, n : Int
 
 {:
   sum p q = ⟨ Σ i : p ≤ i < q : F[i] ⟩
-  
-  NINF : Int -- assuming that NINF represents 
-             -- negative infinity.
 
-  Q  = 0 ≤ n ≤ N  
+  Q  = 0 ≤ n ≤ N
 :}
 
+  -- Write down a specification such that
+  -- r is the maximum sum of non-empty segments.
 
-{ True }  
-  -- How do you specify that you want
-  -- the maximum sum of non-empty segments?
-   
+{ r = ??? }

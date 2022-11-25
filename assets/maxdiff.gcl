@@ -3,11 +3,8 @@ con a : array [0..N) of Int
 var r : Int
 
 {:
-  NINF : Int -- assuming that NINF represents 
+  NINF : Int -- assuming that NINF represents
              -- negative infinity.
 :}
 
-[!
-
-!]
 { r = ⟨↑ i j : 0 ≤ i < j < N : a[i] - a[j] ⟩ }
