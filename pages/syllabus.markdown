@@ -40,7 +40,7 @@ title: 大綱與講義
 * Week 11 (2022/11/17)
   * **迴圈建構一般技巧 General Loop Construction**.
     * 增強恆式 Strengthening the Invariant
-    * 作業 1 (四選二, 12/08 繳交): [mss1.gcl](../assets/mss1.gcl), [steep.gcl](../assets/steep.gcl), [maxdiff.gcl](../assets/maxdiff.gcl), [pppairs.gcl](../assets/pppairs.gcl).
+    * 作業 1 (四選二, 12/07 11:59pm 前繳交): [mss1.gcl](../assets/mss1.gcl), [steep.gcl](../assets/steep.gcl), [maxdiff.gcl](../assets/maxdiff.gcl), [pppairs.gcl](../assets/pppairs.gcl).
     * 範例: [mss_complete.gcl](../assets/mss_complete.gcl).
 * Week 11 (2022/11/17)
   * 延續上週。
