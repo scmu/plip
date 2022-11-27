@@ -49,12 +49,15 @@ title: 大綱與講義
     * 利用結合律 Associative Invariants
     * [講義 7](../assets/handouts_07.pdf), [投影片 7](../assets/slides_07.pdf),
         [練習 7](../assets/practicals_07.pdf).
+    * 作業 2 (12/14 11:59pm 前繳交): [sumpoly.gcl](../assets/sumpoly.gcl).
 * Week 13 (2022/12/01)
   * **Case Study**.
     * 快速除法 Fast Division.
     * 二元搜尋 Binary Search.
-  * **陣列操作 Array Manipulation**.
+    * [講義 8](../assets/handouts_08.pdf), [投影片 8](../assets/slides_08.pdf),
+        [練習 8](../assets/practicals_08.pdf).
 * Week 14 (2022/12/08)
+  * **陣列操作 Array Manipulation**.
   * **陣列元素交換 Swaps in Arrays**.
 * Week 15 (2021/12/15)
   * **分離邏輯 Separation Logic**.

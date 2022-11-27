@@ -2,18 +2,19 @@ con N, X : Int { 0 ≤ N }
 con f : array [0..N) of Int
 var r : Int
 
-{: g : Int -> Int 
+{: g : Int -> Int
    g n = ⟨Σ i : n ≤ i < N : f[i] * X^(i-n) ⟩
      -- g defined for 0 ≤ n ≤ N
 :}
 {-
-   Try come up with a recursive definition of g.
-   That is,
-     g N = ?
-     g n = ?    if 0 ≤ n < N
+   Prove that
+     g N = 0
+     g n = f[n] + X * g (n+1)    if 0 ≤ n < N
+   This will be useful in designing the invariant.
 -}
 
-[!
-
-!]
+{ 用什麼 invariant ? }
+do n ≠ 0 →
+   ?
+od
 { r = ⟨Σ i : 0 ≤ i < N : f[i] * X^i ⟩}
