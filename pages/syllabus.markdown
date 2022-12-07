@@ -59,6 +59,8 @@ title: 大綱與講義
 * Week 14 (2022/12/08)
   * **陣列操作 Array Manipulation**.
   * **陣列元素交換 Swaps in Arrays**.
+  * [講義 9](../assets/handouts_08.pdf), [投影片 9](../assets/slides_08.pdf),
+      [練習 9](../assets/practicals_08.pdf).
 * Week 15 (2021/12/15)
   * **分離邏輯 Separation Logic**.
 * Week 16 (2022/12/22): *期末考*。
