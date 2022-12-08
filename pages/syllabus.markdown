@@ -36,7 +36,7 @@ title: 大綱與講義
   * **迴圈建構一般技巧 General Loop Construction**.
     * 常數換變數 Replacing Constants by Variables
     * [講義 6](../assets/handouts_06.pdf), [投影片 6](../assets/slides_06.pdf),
-        [練習 6](../assets/practicals_06.pdf).
+        [練習 6](../assets/practicals_06.pdf), [練習 6 參考解答](../assets/practicals_06_sols.pdf).
 * Week 11 (2022/11/17)
   * **迴圈建構一般技巧 General Loop Construction**.
     * 增強恆式 Strengthening the Invariant
@@ -55,12 +55,12 @@ title: 大綱與講義
     * 快速除法 Fast Division.
     * 二元搜尋 Binary Search.
     * [講義 8](../assets/handouts_08.pdf), [投影片 8](../assets/slides_08.pdf),
-        [練習 8](../assets/practicals_08.pdf).
+        [練習 8](../assets/practicals_08.pdf), [練習 8 參考解答](../assets/practicals_08_sols.pdf).
 * Week 14 (2022/12/08)
   * **陣列操作 Array Manipulation**.
   * **陣列元素交換 Swaps in Arrays**.
-  * [講義 9](../assets/handouts_08.pdf), [投影片 9](../assets/slides_08.pdf),
-      [練習 9](../assets/practicals_08.pdf).
-* Week 15 (2021/12/15)
+  * [講義 9](../assets/handouts_09.pdf), [投影片 9](../assets/slides_09.pdf),
+      [練習 9](../assets/practicals_09.pdf), [練習 9 參考解答](../assets/practicals_09_sols.pdf).
+* Week 15 (2022/12/15)
   * **分離邏輯 Separation Logic**.
 * Week 16 (2022/12/22): *期末考*。
