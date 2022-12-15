@@ -48,7 +48,7 @@ title: 大綱與講義
   * **迴圈建構一般技巧 General Loop Construction**.
     * 利用結合律 Associative Invariants
     * [講義 7](../assets/handouts_07.pdf), [投影片 7](../assets/slides_07.pdf),
-        [練習 7](../assets/practicals_07.pdf).
+        [練習 7](../assets/practicals_07.pdf), [練習 7 參考解答](../assets/practicals_07_sols.pdf).
     * 作業 2 (12/14 11:59pm 前繳交): [sumpoly.gcl](../assets/sumpoly.gcl).
 * Week 13 (2022/12/01)
   * **Case Study**.
