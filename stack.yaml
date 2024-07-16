@@ -1,6 +1,7 @@
-resolver: lts-18.2
-allow-newer: true
+resolver: lts-22.11
+#allow-newer: true
+system-ghc: true
 packages:
   - .
-extra-deps:
-  - hakyll-4.14.0.0
+#extra-deps:
+#  - hakyll
