@@ -1,46 +1,59 @@
 ---
-title: 課程資訊
+title: Course Info.
 ---
-## 最新消息
+## News
 
-  * [2022/12/15] [練習 7 參考解答](pages/syllabus.html)上網。
-  * [2022/12/08] [練習 6, 8, 9 參考解答](pages/syllabus.html)上網。
-  * [2022/12/07] [講義 9 及練習 9](pages/syllabus.html)上網。
-  * [2022/12/01] [講義 8 含參考資料版本](pages/syllabus.html)上網。
-  * [2022/11/27] [講義 8 及練習 8](pages/syllabus.html)上網。
-  * [2022/11/27] [作業 2](pages/syllabus.html)上網。
-  * [2022/11/16] [作業 1](pages/syllabus.html)更正版上網。
-  * [2022/11/22] [講義 7 及練習 7](pages/syllabus.html)上網。
-  * [2022/11/16] [作業 1](pages/syllabus.html)上網。
-  * [2022/11/16] [練習 5 參考解答](pages/syllabus.html)更新。
-  * [2022/11/16] [講義 6 及練習 6](pages/syllabus.html)上網。
-  * [2022/11/02] [講義 5, 練習 5 及參考解答](pages/syllabus.html)上網。
-  * [2022/10/17] [講義 4, 練習 4 及參考解答](pages/syllabus.html)上網。
-  * [2022/09/27] [講義 3, 練習 3 及參考解答](pages/syllabus.html)上網。
-  * [2022/09/21] [講義 2, 練習 2 及參考解答](pages/syllabus.html)上網。
-  * [2022/09/08] [練習 0 參考解答](pages/syllabus.html)上網。
-  * [2022/09/08] 學期開始。
-  * [2022/09/07] [講義 0 & 1, 練習 0](pages/syllabus.html)上網。
+## Time and Location
 
-## 時間、地點
+  * Course ID: IM 5065, 725 U3930
+  * Credits: 3
+  * Time: Thursday 2,3,4 (9:10am - 12:20noon)
+  * Location: Information Management Building 1, Lecture Room 101 (管一 101)
 
-  * 課號: IM 5065, 725 U3930
-  * 學分: 3
-  * 時間: 星期四 2,3,4
-  * 地點: 管一101
+## Objectives
 
-## 目標
+To bring rigorous, formal logical thinking into programming.
+To teach the techniques of *program derivation*: starting from a formal problem specification, develop a program solving the problem and the correctness proof of the program hand-in-hand.
+To emphasize the importance of program correctness,
+and provide another view on what *programming* is.
 
 將嚴謹的、形式化的邏輯思考帶入程式設計中。訓練學生由問題的規格開始，一邊推導出解決該問題的程式，一邊做該程式為何正確的證明。由此培養對於程式正確性的要求、對於「程式設計是什麼」提出一個不同的觀點。
 
-## 概述
+## Introduction
+
+In the *imperative programming* paradigm, which many common programming languages such as C, Python, and Java belong to, programs are sequences of commands to be carried out by the computer. How to construct such programs and prove their correctness?
+
+This course, **Imperative Program Construction**, is one of the **Programming Languages** series of courses. The series is not about learning any specific programming language, but about ways to construct programs to solve problems, the mathematical and logical foundations behind programming, and the roles of programming languages and formal methods. In this course where we discuss imperative programming, the points we want to make include:
+
+  * A programming language is a formal language in which we think about programming with. We express ideas using the language, as well as verifying correctness of programs using the formal rules provided by the language.
+
+  * "Programming" is much more than producing codes --- a huge part of the work is to make sure the code produced is correct. And the only way to ensure correctness is by proofs.
+
+  * *Program Derivation*, which we will teach in this course, is a methodology in which we, starting from a program specification, derive a program and its correctness proof hand-in-hand.
+
+  * Thinking about "how to prove this program correct" often provide useful hints on how a program can be constructed.
+
+  * Programming is a mathematical activity.
+
+  * *Separation logic* is a formal tool developed to reason about programs using pointers.
+
+Concepts and tools we will cover in this course include:
+
+  * Guarded Command Language of E. W. Dijkstra.
+  * Propositional logic and first order logic.
+  * Hoare Logic.
+  * The "weakest precondition" predicate transformer.
+  * Separation logic.
+
+Many points made in the course echos that of another course, **Programming Languages: Functional Programming** (IM 5064). The two course can be taken separately, however. This course is also very related to **Software Specification and Verification** (IM 7079): both make use of concepts including propositional logic, Hoare Logic, predicate transformer, etc. IM7079 is more about verification, while this course emphasizes on derivation, meaning that there will be more manual calculation and solving specific algorithmic programs, and less discussion on topics such as semantics, concurrency, functional call, etc.
+
+**Keywords**： imperative programming, program derivation, induction, proofs, logic.
 
 「命令」(imperative) 程式語言意指把程式視為「給電腦一個個指令」的語言。我們常用的 C, Python, Java 等語言都可歸屬在此類別下。這類程式語言中，該怎麼寫程式、該怎麼證明程式的正確性？
 
 本課程為「程式語言(Programming Languages)」系列課程之一，著眼點並不是教特定程式語言，而是討論設計程式解決問題的思考方式、設計程式使用的數學與邏輯基礎、以及程式語言與形式符號在其中扮演的角色。本課程以命令程式為主角，其核心概念包括：
 
  * 程式語言是一種形式語言，作為思考的工具。我們用程式語言表達概念，也用程式語言中的形式規則檢驗程式的正確性。
-
 
  * 「寫程式」不只是把程式碼生出來的動作 --- 我們還得確定程式是「對」的。而確定程式正確的唯一方法是證明。
 
@@ -64,14 +77,12 @@ title: 課程資訊
 
 **關鍵字**： 命令程設 imperative programming, 程式推導 program derivation, 歸納法 induction, 證明 proofs, 邏輯 logic.
 
-## 評分
+## Grading
 
-* 不點名、不計出席。
-* 部分習題不算分 --- 請為讓自己了解而做習題。
-* 部分作業算分，佔 25 %.
-* 期中考、期末考成績較高者 50 %, 較低者 25 %.
+* No roll calls.
+* Practicals/Exercises are not included in the final score --- do the exercise for the sake of learning.
+* Two exams: mid-term, and final. The higher one constitute 60% of the final score, while the lower one consitute 40%. The percentage could be adjusted.
 
-## 講師、助教
+## Lecturer and Teaching Assistant
 
- * 講師：穆信成 scm [AT] iis.sinica.edu.tw
- * 助教：陳琳瑄 r11725020 [AT] ntu.edu.tw
+ * Lecturer：Shin-Cheng Mu 穆信成. scm [AT] iis.sinica.edu.tw

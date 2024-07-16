@@ -1,8 +1,8 @@
 ---
-title: 參考資料
+title: References
 ---
 
-# 相關書籍、文件
+# Books and Documents
 
 Backhouse, Roland. Program Construction: Calculating Implementations from Specifications. Wiley, 2003.
 
@@ -18,7 +18,7 @@ Morgan, C. Carroll. [Programming from Specifications](https://www.cs.ox.ac.uk/pu
 
 [Edsger W. Dijkstra Archive](https://www.cs.utexas.edu/users/EWD/), 1962-2002. Hosted by The University of Texas at Austin.
 
-# 相關課程
+# Related Courses
 
 Cunningham, H. Conrad. [Program Semantics and Derivation (CSci 550)](https://john.cs.olemiss.edu/~hcc/csci550/), University of Mississippi, 2006.
 

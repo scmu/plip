@@ -107,15 +107,15 @@ siteCtx =
     constField "site_description"
                "Programming Languages: Imperative Program Construction" `mappend`
     constField "site-url" "https://scmu.github.io/plip" `mappend`
-    constField "tagline" "National Taiwan University, 2022" `mappend`
-    constField "site-title" "程式語言：命令程式設計" `mappend`
-    constField "copy-year" "2022" `mappend`
+    constField "tagline" "程式語言：命令程式設計; National Taiwan University, 2024" `mappend`
+    constField "site-title" "Programming Languages: Imperative Program Construction" `mappend`
+    constField "copy-year" "2024" `mappend`
     constField "github-repo" "https://scmu.github.io/plip" `mappend`
     defaultContext
 
 baseCtx =
     constField "baseurl" "https://scmu.github.io/plip"
-                 --- "http://localhost:8000"
+               -- "http://localhost:8000"
 
 --------------------------------------------------------------------------------
 
