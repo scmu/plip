@@ -6,8 +6,10 @@ title: Syllabus and Handouts
 * [Syllabus](../assets/syllabus.pdf).
 * Week 01 (2024/09/05)
   * **概論 Introduction**
+    * [Handouts 00](../assets/handouts_00.pdf), [Slides 00](../assets/slides_00.pdf).
   * **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
     * 設值 Assignment.
+    * [Handouts 01](../assets/handouts_01.pdf), [Slides 01](../assets/slides_01.pdf), [Practicals 01](../assets/practicals_01.pdf).
 * Week 02 (2024/09/12): **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
   * 條件判斷 Conditional Branching, 最弱前提 Weakest Precondition.
 * Week 03 (2024/09/19): **命題邏輯 Propositional Logic**.
