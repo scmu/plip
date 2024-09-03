@@ -3,6 +3,8 @@ title: Course Info.
 ---
 ## News
 
+  * [2024/09/03] [Handouts 00, 01, Practicals 01](pages/syllabus.html) online.
+
 ## Time and Location
 
   * Course ID: IM 5065, 725 U3930
