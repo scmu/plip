@@ -26,6 +26,6 @@ Morgan, C. Carroll. [(In-)Formal Methods: the Lost Art (COMP 6721)](http://www.c
 
 Reynolds, John C. [Introduction to Separation Logic (15-818A3)](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/fox-19/member/jcr/www15818As2011/cs818A3-11.html), Carnegie Mellon University, 2011.
 
-Tsay, Yih-Kuen. [Software Specification and Verification (軟體規格與驗證)](http://im.ntu.edu.tw/~tsay/dokuwiki/doku.php?id=courses:ssv2021:main), Dep. of Info. Management, National Taiwan University, 2021.
+Tsay, Yih-Kuen. [Software Specification and Verification (軟體規格與驗證)](http://im.ntu.edu.tw/~tsay/dokuwiki/doku.php?id=courses:ssv2024:main), Dep. of Info. Management, National Taiwan University, 2024.
 
 [Formosan Summer School on Logic, Language, and Computation (FLOLAC, 邏輯、語言與計算暑期研習營)](https://flolac.iis.sinica.edu.tw/), since 2007.
