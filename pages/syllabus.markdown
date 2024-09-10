@@ -13,6 +13,8 @@ title: Syllabus and Handouts
 * Week 02 (2024/09/12): **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
   * 條件判斷 Conditional Branching, 最弱前提 Weakest Precondition.
 * Week 03 (2024/09/19): **命題邏輯 Propositional Logic**.
+  * [Handouts 02](../assets/handouts_02.pdf), [Slides 02](../assets/slides_02.pdf), [Practicals 02](../assets/practicals_02.pdf).
+  * [Axioms and Theorems of the Propositional Calculus](../assets/theorems_prop.pdf).
 * Week 04 (2024/09/26): **命題邏輯 Propositional Logic**.
 * Week 05 (2024/10/03): **量詞 Quantifications**.
 * Week 06 (2024/10/10): National Day.
