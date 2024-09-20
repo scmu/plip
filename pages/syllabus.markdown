@@ -9,11 +9,11 @@ title: Syllabus and Handouts
     * [Handouts 00](../assets/handouts_00.pdf), [Slides 00](../assets/slides_00.pdf).
   * **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
     * 設值 Assignment.
-    * [Handouts 01](../assets/handouts_01.pdf), [Slides 01](../assets/slides_01.pdf), [Practicals 01](../assets/practicals_01.pdf).
+    * [Handouts 01](../assets/handouts_01.pdf), [Slides 01](../assets/slides_01.pdf), [Practicals 01](../assets/practicals_01.pdf), , [Practicals 01 Solutions](../assets/practicals_01_sols.pdf).
 * Week 02 (2024/09/12): **Guarded Command Language, Hoare Logic, and Weakest Precondition**.
   * 條件判斷 Conditional Branching, 最弱前提 Weakest Precondition.
 * Week 03 (2024/09/19): **命題邏輯 Propositional Logic**.
-  * [Handouts 02](../assets/handouts_02.pdf), [Slides 02](../assets/slides_02.pdf), [Practicals 02](../assets/practicals_02.pdf).
+  * [Handouts 02](../assets/handouts_02.pdf), [Slides 02](../assets/slides_02.pdf), [Practicals 02](../assets/practicals_02.pdf), [Practicals 02 Solutions](../assets/practicals_02_sols.pdf).
   * [Axioms and Theorems of the Propositional Calculus](../assets/theorems_prop.pdf).
 * Week 04 (2024/09/26): **命題邏輯 Propositional Logic**.
 * Week 05 (2024/10/03): **量詞 Quantifications**.
