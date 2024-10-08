@@ -3,6 +3,7 @@ title: Course Info.
 ---
 ## News
 
+  * [2024/10/08] [Handouts 03, Practicals 03, and solutions](pages/syllabus.html) online.
   * [2024/09/20] [Solutions to Practicals 01 and 02](pages/syllabus.html) online; fixed some typos in Handouts 01.
   * [2024/09/10] [Handouts 02, Practicals 02, Theorems of Propositional Calculus](pages/syllabus.html) online.
   * [2024/09/03] [Handouts 00, 01, Practicals 01](pages/syllabus.html) online.

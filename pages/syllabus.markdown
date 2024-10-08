@@ -16,22 +16,20 @@ title: Syllabus and Handouts
   * [Handouts 02](../assets/handouts_02.pdf), [Slides 02](../assets/slides_02.pdf), [Practicals 02](../assets/practicals_02.pdf), [Practicals 02 Solutions](../assets/practicals_02_sols.pdf).
   * [Axioms and Theorems of the Propositional Calculus](../assets/theorems_prop.pdf).
 * Week 04 (2024/09/26): **命題邏輯 Propositional Logic**.
-* Week 05 (2024/10/03): **量詞 Quantifications**.
+* Week 05 (2024/10/03): (Cancelled due to typhoon)
 * Week 06 (2024/10/10): National Day.
-* Week 07 (2024/10/17): **迴圈與恆式 Loops and Loop Invariants**.
+* Week 07 (2024/10/17): **量詞 Quantifications**.
+  * [Handouts 03](../assets/handouts_03.pdf), [Slides 03](../assets/slides_03.pdf), [Practicals 03](../assets/practicals_03.pdf), [Practicals 03 Solutions](../assets/practicals_03_sols.pdf).
 * Week 08 (2024/10/24)：**期中考 Mid-Term Exam**。
-* Week 09 (2024/10/31):  **迴圈建構一般技巧 General Loop Construction**.
-    * 合取拆恆式 Taking Conjuncts as Invariants
-    * 設值與代換 Assignment and Substitutions
-* Week 10 (2024/11/07)
-  * **迴圈建構一般技巧 General Loop Construction**.
-    * 常數換變數 Replacing Constants by Variables
-* Week 11 (2024/11/14)
-  * **迴圈建構一般技巧 General Loop Construction**.
-    * 增強恆式 Strengthening the Invariant
-* Week 11 (2024/11/21)
-  * 延續上週。
-* Week 12 (2024/11/28)
+* Week 09 (2024/10/31): **迴圈與恆式 Loops and Loop Invariants**.
+* Week 10 (2024/11/07): **迴圈建構一般技巧 General Loop Construction**.
+  * 合取拆恆式 Taking Conjuncts as Invariants
+  * 設值與代換 Assignment and Substitutions
+* Week 11 (2024/11/14): **迴圈建構一般技巧 General Loop Construction**.
+  * 常數換變數 Replacing Constants by Variables
+* Week 12 (2024/11/21): **迴圈建構一般技巧 General Loop Construction**.
+  * 增強恆式 Strengthening the Invariant
+* Week 13 (2024/11/28)
   * **迴圈建構一般技巧 General Loop Construction**.
     * 利用結合律 Associative Invariants
   * **Case Study**.
