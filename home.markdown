@@ -3,6 +3,7 @@ title: Course Info.
 ---
 ## News
 
+  * [2024/10/29] [Solution to Midterm Exam](pages/syllabus.html) online.
   * [2024/10/08] [Solutions to Practicals 03](pages/syllabus.html) updated with solution to question 1.
   * [2024/10/08] [Handouts 03, Practicals 03, and solutions](pages/syllabus.html) online.
   * [2024/09/20] [Solutions to Practicals 01 and 02](pages/syllabus.html) online; fixed some typos in Handouts 01.
