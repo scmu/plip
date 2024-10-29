@@ -23,6 +23,8 @@ title: Syllabus and Handouts
 * Week 08 (2024/10/24)：**期中考 Mid-Term Exam**。
   * [Solutions to Mid-Term Exam](../assets/midterm_sols.pdf).
 * Week 09 (2024/10/31): **迴圈與恆式 Loops and Loop Invariants**.
+  * [Handouts 04](../assets/handouts_04.pdf), [Slides 04](../assets/slides_04.pdf), [Practicals 04](../assets/practicals_04.pdf), [Practicals 04 Solutions](../assets/practicals_04_sols.pdf).
+  * [Summary of the Guarded Command Language](../assets/gcl-summary.pdf).
 * Week 10 (2024/11/07): **迴圈建構一般技巧 General Loop Construction**.
   * 合取拆恆式 Taking Conjuncts as Invariants
   * 設值與代換 Assignment and Substitutions
