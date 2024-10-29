@@ -21,7 +21,7 @@ title: Syllabus and Handouts
 * Week 07 (2024/10/17): **量詞 Quantifications**.
   * [Handouts 03](../assets/handouts_03.pdf), [Slides 03](../assets/slides_03.pdf), [Practicals 03](../assets/practicals_03.pdf), [Practicals 03 Solutions](../assets/practicals_03_sols.pdf).
 * Week 08 (2024/10/24)：**期中考 Mid-Term Exam**。
-  * [Solutions](../assets/midterm_sols.pdf)
+  * [Solutions to Mid-Term Exam](../assets/midterm_sols.pdf).
 * Week 09 (2024/10/31): **迴圈與恆式 Loops and Loop Invariants**.
 * Week 10 (2024/11/07): **迴圈建構一般技巧 General Loop Construction**.
   * 合取拆恆式 Taking Conjuncts as Invariants
