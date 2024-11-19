@@ -28,12 +28,13 @@ title: Syllabus and Handouts
   * [Handouts 04](../assets/handouts_04.pdf), [Slides 04](../assets/slides_04.pdf), [Practicals 04](../assets/practicals_04.pdf), [Practicals 04 Solutions](../assets/practicals_04_sols.pdf).
   * [Summary of the Guarded Command Language](../assets/gcl-summary.pdf).
 * Week 11 (2024/11/14): **迴圈建構一般技巧 General Loop Construction**.
-  * [Handouts 05](../assets/handouts_05.pdf), [Slides 05](../assets/slides_05.pdf), [Practicals 05](../assets/practicals_05.pdf), [Practicals 05 Solutions](../assets/practicals_05_sols.pdf).
   * 合取拆恆式 Taking Conjuncts as Invariants
   * 設值與代換 Assignment and Substitutions
   * 常數換變數 Replacing Constants by Variables
+  * [Handouts 05](../assets/handouts_05.pdf), [Slides 05](../assets/slides_05.pdf), [Practicals 05](../assets/practicals_05.pdf), [Practicals 05 Solutions](../assets/practicals_05_sols.pdf).
 * Week 12 (2024/11/21): **迴圈建構一般技巧 General Loop Construction**.
   * 增強恆式 Strengthening the Invariant
+  * [Handouts 06](../assets/handouts_06.pdf), [Slides 06](../assets/slides_06.pdf), [Practicals 06](../assets/practicals_06.pdf), [Practicals 06 Solutions](../assets/practicals_06_sols.pdf).
 * Week 13 (2024/11/28)
   * **迴圈建構一般技巧 General Loop Construction**.
     * 利用結合律 Associative Invariants
