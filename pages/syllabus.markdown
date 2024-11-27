@@ -35,15 +35,14 @@ title: Syllabus and Handouts
 * Week 12 (2024/11/21): **迴圈建構一般技巧 General Loop Construction**.
   * 增強恆式 Strengthening the Invariant
   * [Handouts 06](../assets/handouts_06.pdf), [Slides 06](../assets/slides_06.pdf), [Practicals 06](../assets/practicals_06.pdf), [Practicals 06 Solutions](../assets/practicals_06_sols.pdf).
-* Week 13 (2024/11/28)
-  * **迴圈建構一般技巧 General Loop Construction**.
+* Week 13 (2024/11/28): **迴圈建構一般技巧 General Loop Construction**.
     * 利用結合律 Associative Invariants
+    * [Handouts 07](../assets/handouts_07.pdf), [Slides 07](../assets/slides_07.pdf), [Practicals 07](../assets/practicals_07.pdf), [Practicals 07 Solutions](../assets/practicals_07_sols.pdf).
+* Week 14 (2024/12/05)
   * **Case Study**.
     * 快速除法 Fast Division.
     * 二元搜尋 Binary Search.
-* Week 14 (2024/12/05)
+* Week 15 (2024/12/12)
   * **陣列操作 Array Manipulation**.
   * **陣列元素交換 Swaps in Arrays**.
-* Week 15 (2024/12/12)
-  * **分離邏輯 Separation Logic**.
 * Week 16 (2024/12/19): *期末考 Final Exam*。
