@@ -3,6 +3,7 @@ title: Course Info.
 ---
 ## News
 
+  * [2024/12/03] [Handouts 08, Practicals 08, and solutions](pages/syllabus.html) online.
   * [2024/11/27] [Handouts 07, Practicals 07, and solutions](pages/syllabus.html) online.
   * [2024/11/19] [Handouts 06, Practicals 06, and solutions](pages/syllabus.html) online.
   * [2024/11/12] [Handouts 05, Practicals 05, and solutions](pages/syllabus.html) online.

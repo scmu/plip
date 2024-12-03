@@ -42,6 +42,7 @@ title: Syllabus and Handouts
   * **Case Study**.
     * 快速除法 Fast Division.
     * 二元搜尋 Binary Search.
+  * [Handouts 08](../assets/handouts_08.pdf), [Slides 08](../assets/slides_08.pdf), [Practicals 08](../assets/practicals_08.pdf), [Practicals 08 Solutions](../assets/practicals_08_sols.pdf).
 * Week 15 (2024/12/12)
   * **陣列操作 Array Manipulation**.
   * **陣列元素交換 Swaps in Arrays**.
