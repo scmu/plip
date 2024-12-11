@@ -46,4 +46,5 @@ title: Syllabus and Handouts
 * Week 15 (2024/12/12)
   * **陣列操作 Array Manipulation**.
   * **陣列元素交換 Swaps in Arrays**.
+  * [Handouts 09](../assets/handouts_09.pdf), [Slides 09](../assets/slides_09.pdf), [Practicals 09](../assets/practicals_09.pdf), [Practicals 09 Solutions](../assets/practicals_09_sols.pdf).
 * Week 16 (2024/12/19): *期末考 Final Exam*。
